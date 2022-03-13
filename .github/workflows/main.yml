@@ -44,7 +44,7 @@ jobs:
     - name: Build dlc.dat file
       run: |
         git clone https://github.com/v2fly/domain-list-community.git
-        antiGFW --datapath=domain-list-community/data
+        genpac --datapath=domain-list-community/data
      
     - name: Build proxy.pac file
       run: |
